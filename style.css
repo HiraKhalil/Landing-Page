@@ -32,21 +32,29 @@ header {
 nav a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin: 0 30px;
-    padding: 100px 0 100px 0;
+    padding: 0px 50px 0px 0px;
 }
 
 /* Main section styling */
 main {
-    margin: 20px 20px 20px 20px;
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
     justify-items: center;
     align-items: center;
+    font-weight: 400;
+}
+.text-box {
+    display: inline-block;
+    margin: 100px;
+    width: 500%;
+    height: 60%;
+    padding: 40px;
+    background-color: rgb(41, 29, 5);
+    color: white;
 }
 img {
-    margin: 80px 20px 20px 20px;
+    margin: 80px;
     width: 40%;
     height: 40%;
     margin-bottom: 60px;
