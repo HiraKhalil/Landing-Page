@@ -1,0 +1,44 @@
+/* Basic reset */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+        text-align: center;
+        background: rgb(41, 29, 5);
+        background-size: cover;
+        color: rgb(255, 255, 255);
+        background-size: cover;
+}
+
+/* Navigation styling */
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+/* Main section styling */
+main {
+    margin: 20px 0;
+}
+img {
+    width: 30%;
+    height: 30%;
+}
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 10px 20px 10px;
+}
