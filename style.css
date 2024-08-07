@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* Basic reset */
 body, h1, p, a {
     margin: 0;
@@ -6,10 +11,9 @@ body, h1, p, a {
 
 /* Body styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(199, 191, 179);
     text-align: center;
-    padding: 20px;
 }
 
 /* Header styling */
@@ -19,6 +23,9 @@ header {
         background-size: cover;
         color: rgb(255, 255, 255);
         background-size: cover;
+        padding: 25px;
+        font-size: larger;
+        height: 150px;
 }
 
 /* Navigation styling */
@@ -26,19 +33,32 @@ nav a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin: 0 30px;
+    padding: 90px 0 90px;
 }
 
 /* Main section styling */
 main {
-    margin: 20px 0;
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    justify-items: center;
+    align-items: center;
 }
 img {
-    width: 30%;
-    height: 30%;
+    margin: 80px 20px 20px 20px;
+    width: 40%;
+    height: 40%;
+    margin-bottom: 60px;
+    justify-content: center;
 }
 /* Footer styling */
 footer {
-    background-color: #333;
+    background: rgb(41, 29, 5);
     color: white;
     padding: 20px 10px 20px 10px;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
 }
