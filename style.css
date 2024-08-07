@@ -12,8 +12,9 @@ body, h1, p, a {
 /* Body styling */
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background: rgb(199, 191, 179);
     text-align: center;
+    background: url('https://img.freepik.com/premium-photo/cup-coffee-with-cookies-book-table-coffee-shop_934652-2882.jpg');
+background-size: cover;
 }
 
 /* Header styling */
@@ -25,7 +26,7 @@ header {
         background-size: cover;
         padding: 25px;
         font-size: larger;
-        height: 150px;
+        height: 130px;
 }
 
 /* Navigation styling */
@@ -43,14 +44,15 @@ main {
     justify-items: center;
     align-items: center;
     font-weight: 400;
+    background-size: cover;
 }
 .text-box {
     display: inline-block;
     margin: 100px;
     width: 500%;
     height: 60%;
-    padding: 40px;
-    background-color: rgb(41, 29, 5);
+    padding: 90px;
+    background-color: rgba(26, 18, 3, 0.67);
     color: white;
 }
 img {
@@ -69,4 +71,5 @@ footer {
     bottom: 0;
     height: 100px;
     width: 100%;
+    font-size: large;
 }
